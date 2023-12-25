@@ -1,0 +1,119 @@
+* {
+   margin: 0;
+   padding: 0;
+ }
+body{
+   /*background-color: #333;*/
+   background-image: url('image/starrysky.jpg');
+   background-size: cover; /* 画像を要素に合わせてカバーするように設定 */
+  background-position: center; /* 画像を中央に配置 */
+ 
+}
+header{
+   color: #333;
+   font-size: 50px;
+   background-color: blueviolet;
+   text-align: center;
+}
+
+ 
+.box{
+   text-align: center;
+   background-color:blueviolet;
+   font-size: 35px;
+}
+ul.list {
+   list-style-type: none;
+   padding: 0;
+   margin: 0 auto; /* 左右の余白を自動的に調整してセンターに配置 */
+   display: inline-block; /* バーを横並びにするために必要な属性 */
+   }
+   
+   li {
+      display: inline-block;
+      margin-right: 10px; /* バーの間のスペースを調整 */
+     
+   }
+   a{
+      color: #333;
+      text-decoration: none;
+   }
+   .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color:  blueviolet;
+      z-index: 1;
+      border-radius: 0px 0px 10px 10px; 
+     
+    }
+   
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    .dropdown-content li {
+      display: block;
+    }
+    .dropdown-content li:hover {
+      background-color: #ddd;
+      margin: 0 auto; /* 左右の余白を自動的に調整してセンターに配置 */
+    }
+  
+.container-bg{
+   background-color: rgba(255, 255, 255, 0.5);
+   border-radius: 10px;  
+   margin: 2% 10% 2% 10%
+   
+}
+.origin,.feature,.contribute{
+   font-size: 30px;
+   margin-left: 5%;
+  
+}
+.origin-text,.feature-text,.contribute-text{
+   font-size: 20px;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+
+.profile,.info{
+   flex:1;
+   max-width: 25%;
+}
+.container{
+   display: flex;
+   text-align: center;
+  align-items: center; /* 垂直方向の中央揃え */
+}
+
+.profile img{
+ 
+   width: 80%;
+   height: auto;
+   flex: 0 0 auto; /* フレックスアイテムの伸縮可能性を制御 */
+
+}
+.info{
+   font-size: 20px;
+   text-align: center;
+   max-width: 75%;
+   
+}
+.bio{
+   text-align: left;
+   margin: 1% 5% 1% 1%;
+   
+}
+.bold-text{
+   
+  font-weight: bold; /* 太字にする */
+}
+
+.system{
+   text-align: center;
+}
+.system img{
+   max-width: 100%;
+   border-radius: 10px 10px 0px 0px; 
+}
